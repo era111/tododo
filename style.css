@@ -1,0 +1,237 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+#example {
+    display: none;
+}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+/* ---------------------------------------- */
+/* fixed header */
+.header{
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    background-color: rgb(84, 143, 163);
+  
+}
+.headerWrap{
+    
+    width: fit-content;
+    margin: auto;
+    margin-top: 15px;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+/* imput field */
+.enterTextField{
+    position: fixed;
+    text-align: center;
+    background-color: rgb(84, 143, 163);
+
+    width: 100%;
+    height: 50px;
+    margin-top: 75px;
+}
+.inputtext {
+    margin-top: 5px;
+    height: 40px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+}
+.selectLvl {
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    height: 30px;
+    width: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+.addtask{
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    height: 30px;
+    width: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+}
+
+.chechboxesField{
+    position: fixed;
+    background-color: rgb(84, 143, 163);
+
+    width: 100%;
+    height: 20px;
+    margin-top: 125px;
+    text-align: center;
+}
+.checkboxesWrap{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    margin: auto;    
+}
+span{
+    display: inline-block;
+    padding: 0 20px 0 5px;
+}
+.shadow{
+    height: 145px;
+    width: 100%;
+    background-color: rgb(84, 143, 163);
+}
+
+/* taskss field */
+.fieldTasks{
+    text-align: center;
+    /* background-color: deepskyblue; */
+}
+.noteWrap{
+    /* background-color: darkslategrey; */
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.noteBlock{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    margin: auto;   
+    /* background-color: green; */
+    width: 600px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.lvlNote{
+    margin-left: 10px;
+}
+.innertext{
+    margin-top: 5px;
+    height: 40px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    margin-right: 10px;
+}
+.complete{
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    height: 20px;
+    width: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+.delete{
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    height: 20px;
+    width: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+}
+
+
+
+
+.hide{
+    display: none;
+    
+}
+.test{
+    height: 1000px;
+}
+
+
+.true {
+
+    background-color: rgb(84, 143, 163,0.5);
+
+    text-shadow:0 0 15px rgb(255, 255, 255);
+
+}
+
+
+h2{
+    font-size: 20px;
+    margin: 9px;
+}
+h2:hover {
+    /* text-shadow:0 0 5px rgb(180, 13, 13); */
+    text-shadow: 1px 1px 2px rgb(248, 0, 0), 0 0 1em red;
+    cursor: pointer;
+    
+
+}
+
+.readme {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    top: 20px;
+    left: 20px;
+    background-color: black;
+    text-align: center;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+hr {
+    width: 100%;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+#hide {
+    height: 210px;
+    background-color: black;
+}

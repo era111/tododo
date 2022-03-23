@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index2.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <div class="headerWrap"><h1>To-Do</h1></div>
+    </div>
+    <div class="enterTextField">
+        <!-- <form action="#" class="entertask"> -->
+            <input type="text" class="inputtext" placeholder="enter text...">
+            <select class="selectLvl">
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select> 
+            <button class="button addtask">add note</button>
+        <!-- </form> -->
+    </div>
+    <div class="chechboxesField">
+        <div class="checkboxesWrap">
+            <!-- <form action="#" class="checkboxes"> -->
+                <input id="isComplite" type="radio" name="one" class="check"><span>Complited</span>
+                <input id="high" type="radio" name="one" class="check"><span>High</span>
+                <input id="medium" type="radio" name="one" class="check"><span>Medium</span>
+                <input id="low" type="radio" name="one" class="check"><span>Low</span>
+                <input id="all" type="radio" name="one" class="check"><span>All</span>
+            <!-- </form> -->
+        </div>
+    </div>
+    <div class="shadow"></div>
+    <div class="fieldTasks">
+        
+    </div>
+
+    <!-- <input type="submit"> -->
+    <div class="readme">
+        <div class="titleblobk">
+            <hr>
+            <h2 class="podskazka">Функционал</h2>
+            <hr>
+        </div>
+        <div id="hide" class="hide">
+            <span>Работает Enter на создание заметки</span>
+            <hr>
+            <span>Фильтрация</span>
+            <hr>
+            <span>Удаление заметки, а также смена ее статуса "выполнено/не выполнено"</span>
+            <hr>
+            <span>Изменение текста в заметке: двойнок щелчок по полю ввода, ввести изменения, после чего нажать Enter для сохранения</span>    
+        </div>
+    </div>
+
+ 
+    
+</body>
+</html>
