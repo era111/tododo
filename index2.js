@@ -5,7 +5,6 @@ const $checkBox = document.querySelector('.checkboxesWrap')
 const podsk = document.querySelector('#hide')
 document.addEventListener('click', (event) => {
     if (event.target.className == 'podskazka') {
-        console.log('sossiiii');
         hider(podsk)
     }
 })
